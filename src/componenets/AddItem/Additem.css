@@ -1,0 +1,34 @@
+.AddItemContainer {
+  border-bottom: 1px solid black;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addItemActions {
+  width: 50%;
+  height: 2.5vh;
+  margin-top: 1vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.addItemButton {
+  width: 5vw;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 2em;
+  color: white;
+}
+
+.addItemButton:hover {
+  background-color: #267ff5;
+}
+
+.addItemButton:active {
+  background-color: #1877f2;
+  transform: translateY(1px);
+}

@@ -1,0 +1,16 @@
+.taskContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3.5vh;
+  border-bottom: 1px solid black;
+}
+
+.taskCompletion {
+  width: 3%;
+  margin-left: 2%;
+}
+
+.completedTask {
+  text-decoration: line-through;
+}

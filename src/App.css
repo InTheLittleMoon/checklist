@@ -1,0 +1,13 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh auto;
+  width: 50%;
+  height: 70vh;
+  border: 1px solid black;
+}
